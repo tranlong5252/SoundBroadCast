@@ -1,0 +1,11 @@
+name: SoundBroadcast
+version: ${project.version}
+main: tranlong5252.soundbroadcast.SoundBroadcast
+api-version: 1.16
+prefix: SoundBroadcast
+authors: [ tranlong5252 ]
+commands:
+  sbc:
+    description: dùng lệnh
+    permission: sbc.use
+    permission-message: '§cBạn không thể sử dụng lệnh này'
