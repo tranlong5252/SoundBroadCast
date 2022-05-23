@@ -25,19 +25,19 @@ public class Trigger extends BukkitRunnable {
             switch (remaining) {
                 case 4:
                     //p.playNote(loc, ins, Note.sharp(1, Note.Tone.F));
-                    p.playSound(loc, ins, SoundCategory.RECORDS, 10000, 0.5f);
+                    p.playSound(loc, ins, SoundCategory.RECORDS, 100000000, 0.5f);
                     break;
                 case 3:
                     //p.playNote(loc, ins, Note.sharp(1, Note.Tone.A));
-                    p.playSound(loc, ins, SoundCategory.RECORDS, 10000, 0.629961f);
+                    p.playSound(loc, ins, SoundCategory.RECORDS, 100000000, 0.629961f);
                     break;
                 case 2:
                     //p.playNote(loc, ins, Note.sharp(1, Note.Tone.C));
-                    p.playSound(loc, ins, SoundCategory.RECORDS, 10000, 0.749154f);
+                    p.playSound(loc, ins, SoundCategory.RECORDS, 100000000, 0.749154f);
                     break;
                 case 1:
                     //p.playNote(loc, ins, Note.sharp(2, Note.Tone.F));
-                    p.playSound(loc, ins, SoundCategory.RECORDS, 10000, 1);
+                    p.playSound(loc, ins, SoundCategory.RECORDS, 100000000, 1);
                     break;
             }
         });
